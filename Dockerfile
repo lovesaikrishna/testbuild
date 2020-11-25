@@ -1,3 +1,3 @@
-FROM new
+FROM end
 RUN who
-ENTRYPOINT [“echo”, “Hello World”]
+ENTRYPOINT ["/usr/sbin/init"]
