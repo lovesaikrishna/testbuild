@@ -1,3 +1,2 @@
-FROM end
-RUN who
-ENTRYPOINT ["/usr/sbin/init"]
+FROM hot
+CMD tail -f /dev/null
